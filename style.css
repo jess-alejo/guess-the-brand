@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url('/fonts/PressStart2P-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  background-color: #97c5d5;
+  font-family: "Press Start 2P", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 50px;
+  color: #f4c000;
+  text-shadow: 1px 1px #000;
+  margin-bottom: 20px;
+}
+
+#game-image {
+  width: 320px;
+  height: 320px;
+  display: none;
+}
+
+#game-form {
+  display: none;
+}
+
+#game-input {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  padding: 5px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+#game-input:focus {
+  outline: none;
+}
+
+#start-button {
+  height: 80px;
+  width: 240px;
+  position: absolute;
+  font-size: 28px;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #f4c000;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffcc00;
+}
+
+#main-screen {
+  width: 340px;
+  height: 340px;  
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#game-status {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
