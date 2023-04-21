@@ -103,9 +103,9 @@ function endGame() {
   showGameScreen("off")
 
   if (score > 5) {
-    gameImage.setAttribute("src", "/images/celebrate.gif")
+    gameImage.setAttribute("src", "./images/celebrate.gif")
   } else {
-    gameImage.setAttribute("src", "/images/sad-crying.gif")
+    gameImage.setAttribute("src", "./images/sad-crying.gif")
   }
 }
 
