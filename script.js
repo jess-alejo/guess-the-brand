@@ -54,7 +54,7 @@ function displayBrand() {
 }
 
 function checkAnswer(answer) {
-  if (answer.toLowerCase() === currentBrand.name.toLowerCase()) {
+  if (isLooselyEqual(answer, currentBrand.name)) {
     score++
     gameMessage.innerHTML = "Correct!"
     gameScore.innerHTML = `Score: ${score}`
@@ -62,6 +62,14 @@ function checkAnswer(answer) {
     gameMessage.innerHTML = `Sorry, the correct answer was ${currentBrand.name}.`
   }
   displayBrand()
+}
+
+function squeeze(text) {
+  return text.replaceAll(/\W/g, "") 
+}
+
+function isLooselyEqual(text1, text2) {
+  return squeeze(text1.toLowerCase()) === squeeze(text2.toLowerCase())
 }
 
 function pass() {

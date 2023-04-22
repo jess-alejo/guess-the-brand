@@ -1,16 +1,16 @@
 const brandLogos = [
-  {
-    name: "adidas",
-    image: "./images/logos/adidas.png",
-  },
+  // {
+  //   name: "adidas",
+  //   image: "./images/logos/adidas.png",
+  // },
   {
     name: "apple",
     image: "./images/logos/apple.png",
   },
-  {
-    name: "audi",
-    image: "./images/logos/audi.png",
-  },
+  // {
+  //   name: "audi",
+  //   image: "./images/logos/audi.png",
+  // },
   {
     name: "caltex",
     image: "./images/logos/caltex.png",
@@ -43,10 +43,10 @@ const brandLogos = [
     name: "globe",
     image: "./images/logos/globe.png",
   },
-  {
-    name: "jollibee",
-    image: "./images/logos/jollibee.jpeg",
-  },
+  // {
+  //   name: "jollibee",
+  //   image: "./images/logos/jollibee.jpeg",
+  // },
   {
     name: "kodak",
     image: "./images/logos/kodak.png",
@@ -83,10 +83,10 @@ const brandLogos = [
     name: "netflix",
     image: "./images/logos/netflix.png",
   },
-  {
-    name: "nike",
-    image: "./images/logos/nike.png",
-  },
+  // {
+  //   name: "nike",
+  //   image: "./images/logos/nike.png",
+  // },
   {
     name: "paypal",
     image: "./images/logos/paypal.png",
@@ -119,10 +119,10 @@ const brandLogos = [
     name: "san miguel",
     image: "./images/logos/san miguel.png",
   },
-  {
-    name: "shell",
-    image: "./images/logos/shell.png",
-  },
+  // {
+  //   name: "shell",
+  //   image: "./images/logos/shell.png",
+  // },
   {
     name: "spotify",
     image: "./images/logos/spotify.png",
